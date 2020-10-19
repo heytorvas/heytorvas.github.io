@@ -7752,7 +7752,7 @@ header {
           position: relative; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              font-size: 40px; } }
+              font-size: 25px; } }
         .owl-carousel.home-slider .slider-item .slider-text p {
           font-size: 20px;
           line-height: 1.5;
@@ -7881,7 +7881,7 @@ header {
 @media (max-width: 767.98px) {
   .about-section .author-img {
     display: block;
-    height: 300px; } }
+    height: 350px; } }
 
 .wrap {
   padding: 0; }
@@ -7936,6 +7936,17 @@ header {
       margin-bottom: 0; }
   .exp-wrap .year {
     width: 150px; }
+
+@media (max-width: 767.98px) {
+  .exp-wrap .desc {
+    width: 100%;
+    border-bottom: 1px solid #1a1a1a;
+    float: left; 
+  }
+  .exp-wrap .desc, .exp-wrap .year {
+    width: 100%; 
+  }
+}
 
 .progress-wrap {
   margin-bottom: 30px; }
@@ -8062,6 +8073,12 @@ textarea.form-control {
   opacity: 0;
   visibility: hidden; }
 
+@media (max-width: 767.98px) {
+  .test-marg {
+    padding-left: 0.25em;
+  }
+}
+
 .bg-primary {
   background: #2f89fc !important; }
 
@@ -8092,7 +8109,7 @@ textarea.form-control {
   border-radius: 50%; }
 
 .ftco-section {
-  padding: 7em 0; }
+  padding: 4em 0; }
 
 .ftco-bg-dark {
   background: #3c312e; }
